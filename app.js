@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -11,7 +10,7 @@ var path = require('path');
 
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/nodedb');
+var db = monk('aaykl17509qyj8kc:apksrfwsp8rw7et1fi9qznkf9x87cqjt@192.168.2.202:53347/t');
 
 var app = express();
 
